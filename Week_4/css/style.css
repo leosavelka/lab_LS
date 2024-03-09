@@ -68,6 +68,10 @@ header {
     font-family: 'Ubuntu', sans-serif;
 }
 
+    .btn:hover {
+        background-color: rgba(249, 194, 31);
+        box-shadow: 10px 10px 10px grey;
+    }
 
 .header_img {
     width: 480px;
@@ -162,7 +166,7 @@ input, textarea {
     transition: all 0.5;
 }
 
-
+  
 
 .end {
     background: linear-gradient(90deg, rgba(2, 0, 36.1), rgba(70, 70, 221), rgba(0, 212, 255, 1));
