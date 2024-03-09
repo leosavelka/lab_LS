@@ -1,0 +1,44 @@
+﻿.title {
+    color: red;
+    font-family: "Times New Roman", serif;
+}
+
+.first {
+    background-color: blue;
+    width: 150px;
+    height: 50px;
+    color: white;
+    line-height: 100%;
+}
+
+.second {
+    line-height: 100%;
+}
+
+.red {
+    color: red;
+}
+
+.third {
+    background-color: green;
+    line-height: 100%;
+    color: white;
+}
+
+.fourth {
+    background-color: green;
+    color: white;
+    padding: 50px 70px 50px;
+}
+
+.list {
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    position: absolute;
+    width: 100%;
+}
+
+.sangria {
+    margin-left: 40px;
+}
