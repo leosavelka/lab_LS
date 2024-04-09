@@ -354,23 +354,9 @@ No media query for `xs` since this is the default in Bootstrap*/
         padding-bottom: 70px;
     }
 
-    .container {
-        width: 769px;
-    }
-
-    .offer {
-        width: 500px;
-    }
-
-    .title {
-        width: 400px;
-        font-size: 26px;
-    }
-
     .wrapper {
         justify-content: center;
     }
-    
 }
 
 /* Medium devices (tablets, 768px and up)*/
