@@ -1,0 +1,99 @@
+
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Анимация</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/cass2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img class= "desktop animate__animated animate__pulse app" src="img/logo.png" alt="pic">
+            <div class="wrapper">
+                <div class="offer">
+                    <h1>
+                        С помощью нас<br />
+                        вы сможете создать то, о чем
+                    </h1>
+                    <span class="title1"><strong>желаете!</strong></span></h1>
+                    <p class="offer">
+                        Наши возможности + опыт позволят Вам достичь<br />
+                        огромного успеха. Мы верим в вас! И знаем это на<br />
+                        все 100%. Вас не остановить!
+                    </p>
+                    <a href="#" class="btn">Узнать больше...</a>
+                </div>
+                <img class="desktop animate__animated animate__jello header_img" src="img/header-img.png" alt="pic">
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <h2 class="first_title desktop animate__animated animate__fadeInRight">Что Вам необходимо?</h2>
+            <div class="first_block">
+                <div class="blocks">
+                    <img src="img/f3.png" alt="pic">
+                    <h3 > Первый блок</h3>
+                    <p>Текст, текст, текст, текст, текст, текст</p>
+                </div>
+                <div class="blocks">
+                    <img class="imagen" src="img/f4.png" alt="pic">
+                    <h3>Второй блок</h3>
+                    <p>Текст, текст, текст, текст, текст, текст</p>
+                </div>
+                <div class="blocks">
+                    <img src="img/f5.png" alt="pic">
+                    <h3>Третий блок</h3>
+                    <p>Текст, текст, текст, текст, текст, текст</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <section class="new_form">
+        <div class="container">
+            <h2 class="form_title">Форма заказа продукта или услуги</h2>
+            <div class="form_block">
+                <div class="left-side">
+                    <form id="blck" type="text">
+                        <input type="text" class="field_form" id="name" placeholder="Имя" required oninput="validateName()"/><br>
+                        <input type="text" class="field_form" id="surname" placeholder="Фамилия" required oninput="validateSurname()"/><br>
+                        <input type="tel" class="field_form" id="phone" placeholder="Номер телефона" required oninput="validatePhone()"/><br>
+                        <input type="text" class="field_form" id="city" placeholder="Город" required oninput="validateCity()"/><br> 
+                        <input type="datetime-local" class="field_form" id="date-time" placeholder="Дата и время" required oninput="validateDateTime()"/><br>
+                        <input type="number" class="field_form" id="quantity" placeholder="Количество" min="1" max="9999999999999999999999" required oninput="validateQuantity()"/><br>
+                        <button type="button" class="button" onclick="submitProductOrderForm(event)" disabled>Отправить заказ</button>
+                    </form>
+                </div>
+                <div class="right-side" id="summaryBlock" style="display: none;">
+                    <h3>Информация заказа:</h3>
+                    <p id="summaryContent"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="form">
+        <div class="container">
+            <h2 class="second_title desktop animate__animated animate__bounceInLeft">Форма заказа обратного звонка</h2>
+            <div class="second_block">
+                <form class="blck" type="text">
+                    <input type="text" class="field" placeholder="Имя" /><br>
+                    <input type="text" class="field" placeholder="Введите свой e-mail" /><br>
+                    <input type="text" class="field" placeholder="Телефон" /><br>
+                    <input type="text" class="field" placeholder="Какая тема Вас интересует?" /><br>
+                    <button class="button">Отправить вопрос!</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="end">
+        <div class="typing_text">
+            <p>© Все на этом сайте защищено</p>
+        </div>
+    </section>
+<script src="js/lab8.js"></script>
+</body>
+</html>
