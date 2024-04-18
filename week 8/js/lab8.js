@@ -108,7 +108,7 @@ function validateDateTime() {
         return true;
     } else {
         document.getElementById("date-time").style.color = "red";
-        document.getElementById("date-time").nextElementSibling.innerHTML = "Выберете дату";
+        document.getElementById("date-time").nextElementSibling.innerHTML = "Выберите дату";
         return false;
     }
 }
