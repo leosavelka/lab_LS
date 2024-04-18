@@ -81,7 +81,7 @@ function validatePhone() {
         return true;
     } else {
         document.getElementById("phone").style.color = "red";
-        document.getElementById("phone").nextElementSibling.innerHTML = "Введите номер телефона (от 4 цифр)";
+        document.getElementById("phone").nextElementSibling.innerHTML = "Введите номер телефона (от 4 до 15 цифр)";
         return false;
     }
 }
