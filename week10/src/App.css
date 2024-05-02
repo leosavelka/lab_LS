@@ -6,14 +6,14 @@
   width: 1200px;
   margin: 0 auto;
 }
-.main_title {
+.first_title {
   font-size: 30px;
   text-align: center;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Times New Roman', sans-serif;
   margin-bottom: 60px;
 }
 
-.main_block {
+.first_block {
   display: flex;
   justify-content: space-between;
 }
@@ -21,5 +21,5 @@
 .blocks {
   text-align: center;
   width: 25%;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Times New Roman', sans-serif;
 }

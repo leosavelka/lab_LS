@@ -7,8 +7,8 @@ function App() {
   return (
   <main class="main">
     <div class="container">
-        <h2 class="main_title">Что Вам необходимо?</h2>
-        <div class="main_block">
+        <h2 class="first_title">Что Вам необходимо?</h2>
+        <div class="first_block">
             <div class="blocks">
                 <img src={f3} alt="pic"/>
                 <h3>Первый блок</h3>
