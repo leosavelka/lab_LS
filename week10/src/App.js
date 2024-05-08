@@ -1,3 +1,4 @@
+
 import f3 from './img/f3.png';
 import f4 from './img/f4.png';
 import f5 from './img/f5.png';
@@ -5,28 +6,14 @@ import './App.css';
 
 function App() {
   return (
-  <main class="main">
-    <div class="container">
-        <h2 class="first_title">Что Вам необходимо?</h2>
-        <div class="first_block">
-            <div class="blocks">
-                <img src={f3} alt="pic"/>
-                <h3>Первый блок</h3>
-                <p>Текст, текст, текст, текст, текст, текст</p>
-            </div>
-            <div class="blocks">
-                <img src={f4} alt="pic"/>
-                <h3>Второй блок</h3>
-                <p>Текст, текст, текст, текст, текст, текст</p>
-            </div>
-            <div class="blocks">
-                <img src={f5} alt="pic"/>
-                <h3>Третий блок</h3>
-                <p>Текст, текст, текст, текст, текст, текст</p>
-            </div>
-        </div>
+    <div className="container">
+    <h2 className="first_title">Что Вам необходимо?</h2>
+    <div className="first_block">
+        <todo title="Первый блок" img={f3} text='Текст, текст, текст, текст, текст, текст'/>
+        <todo title="Второй блок" img={f4} text='Текст, текст, текст, текст, текст, текст'/>
+        <todo title="Третий блок" img={f5} text='Текст, текст, текст, текст, текст, текст'/>
     </div>
-</main>
+ </div> 
   );
 }
 
