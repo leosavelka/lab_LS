@@ -1,0 +1,23 @@
+
+.container {
+  padding-top: 15%;
+  width: 1200px;
+  margin: 0 auto;
+}
+.first_title {
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Times New Roman', sans-serif;
+  margin-bottom: 60px;
+}
+
+.first_block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.blocks {
+  text-align: center;
+  width: 25%;
+  font-family: 'Times New Roman', sans-serif;
+}
