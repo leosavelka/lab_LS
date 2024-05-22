@@ -1,0 +1,70 @@
+.nav {
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    padding: 1em;
+  }
+    
+  .logoContainer {
+    flex-shrink: 0;
+    margin-right: 10px;
+  }
+    
+  .logotip {
+    height: 70px;
+  }
+    
+  .nav .form {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    flex: 1;
+    margin: 0;
+    padding: 0;
+  }
+    
+  .nav .form .item {
+    display: inline;
+  }
+    
+  .nav .form .item a {
+    color: black;
+    text-decoration: none;
+  }
+    
+  img {
+    display: inline;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .containerbtn {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .icon {
+    margin-right: 8px;
+    height: 20px;
+  }
+  
+  .btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .rqtbtn {
+    background-color: rgb(201, 112, 3);
+    color: white;
+  }
+  
+  .calcbtn {
+    background-color: rgb(31, 7, 79);
+    color: white;
+  }
